@@ -1,0 +1,158 @@
+.jumbotron {
+  height: 90vh;
+  background-image: url(./img/jokowi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.jumbotron h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 40vh;
+  text-shadow: 2px 2px 5px black;
+}
+.jumbotron::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 166px;
+  width: 100%;
+  background: linear-gradient(transparent, transparent, transparent, white);
+}
+
+/* .carousel-item img {
+  opacity: 0.;
+} */
+
+.font {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: red;
+  border-bottom: 1px solid red;
+}
+
+.butt {
+  font-size: 20px;
+  margin-top: -3px;
+  color: white;
+  border-color: transparent;
+}
+
+.butt:hover {
+  color: red;
+  background: transparent;
+  border-color: transparent;
+}
+
+.dropdown-item:focus {
+  background-color: transparent;
+}
+
+.dropdown:hover {
+  border-bottom: 1px solid red;
+}
+.dropdown-menu .dropdown-item:hover {
+  color: red;
+  border-bottom: 1px solid red;
+}
+.mixi {
+  color: white;
+  font-size: 18px;
+  width: 100px;
+}
+
+.mixxx {
+  text-align: center;
+  text-shadow: 5px 3px 5px black;
+}
+
+.mixi:hover {
+  color: black;
+}
+.lop .rounded-circle {
+  margin-top: 20px;
+  width: 600px;
+  height: 600px;
+}
+#government h2 {
+  color: white;
+  margin-top: -472px;
+  font-size: 25px;
+}
+
+.lop .pe img {
+  width: 162px;
+  height: 146px;
+  margin-top: 55px;
+  margin-left: -600px;
+  background-color: white;
+}
+.lop .to img {
+  width: 162px;
+  height: 146px;
+  margin-top: -750px;
+  margin-left: 10px;
+  background-color: white;
+  border: 5px solid white;
+}
+.lop .meep img {
+  width: 162px;
+  height: 146px;
+  margin-top: -240px;
+  margin-left: 590px;
+  background-color: white;
+}
+.lop .kole img {
+  width: 162px;
+  height: 146px;
+  margin-top: 100px;
+  margin-left: 30px;
+  background-color: white;
+}
+
+/* footer */
+footer {
+  background-color: gray;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 4rem;
+}
+
+footer .social a {
+  color: black;
+  margin: 1rem;
+  text-decoration: none;
+}
+
+footer .social a:hover {
+  color: white;
+}
+
+footer .credit a {
+  color: white;
+  font-weight: 700;
+  margin-top: 5rem;
+}
+
+.poll img {
+  width: 100%;
+}
+.poll p {
+  text-align: justify;
+}
+
+.sohar img {
+  width: 100%;
+}
+
+.sohar p {
+  text-align: justify;
+}
